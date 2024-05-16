@@ -14,11 +14,11 @@ PRIMARY KEY (id)
 
 INSERT INTO tb_colaboradores (id, nome, cargo, departamento, salario, data_admissao) 
 VALUES 
-(1, "João Silva", "Analista de RH ", "Recursos Humanos", 2500.00, '2021-01-15'),
-(2, "Maria Silva", "Analista administrativo", "Administração", 1800.00, '2021-05-10'),
-(3, "Pedro Silva", "Analista Financeiro", "Financeiro", 3000.00, '2021-08-20'),
-(4, "Jose Silva", "Analista de vendas", 'Vendas', 3500.00, '2024-03-12'),
-(5, "Weslley fellipe ", "Desenvolvedor", "Tecnologia da Informação", 6000.00, '2024-07-01');
+(1, "João Silva", "Analista de RH ", "Recursos Humanos", 2500.00, "2021-01-15"),
+(2, "Maria Silva", "Analista administrativo", "Administração", 1800.00, "2021-05-10"),
+(3, "Pedro Silva", "Analista Financeiro", "Financeiro", 3000.00, "2021-08-20"),
+(4, "Jose Silva", "Analista de vendas", "Vendas", 3500.00, "2024-03-12"),
+(5, "Weslley fellipe ", "Desenvolvedor", "Tecnologia da Informação", 6000.00, "2024-07-01");
 
 SELECT * FROM tb_colaboradores;
 
